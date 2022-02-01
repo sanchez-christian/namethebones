@@ -26,4 +26,12 @@ index.html:   atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
 script.js:    atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
 stlye.CSS:    atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
 
+
+
+code for interactive text input:
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+  At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+  </textarea>
+
+
 */
