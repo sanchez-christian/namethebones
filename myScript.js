@@ -1,4 +1,4 @@
-
+let letterArray = [];//array of letters for matching exam
 
 
 $(document).ready(function)() {
