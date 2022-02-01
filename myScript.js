@@ -22,7 +22,8 @@ $(document).ready(function)() {
 This is for testing purposes
 
 here is code for teletype
-    atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
-
+index.html:   atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
+script.js:    atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
+stlye.CSS:    atom://teletype/portal/3e18ff4d-5823-4484-be1f-427fbb6bfe19
 
 */
