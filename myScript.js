@@ -22,7 +22,7 @@ $(document).ready(function)() {
 This is for testing purposes
 
 here is code for teletype
-     atom://teletype/portal/51b108cc-a086-4e21-823e-f4168f3313d6
+    atom://teletype/portal/d6c19579-f9c6-477d-bade-8b700aec8458
 
 
 */
