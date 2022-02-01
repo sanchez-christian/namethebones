@@ -1,16 +1,27 @@
-let letterArray = [];//array of letters for matching exam
+let letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"];//array of letters for matching exam
 
 
 $(document).ready(function)() {
   $("#imagetoggler").click(function(){
   $("img").toggle();
   });
+
+  for(let first = 0; first<O first++){
+  letterArray.push(new letter(random(A,O)))\
+  const shuffleArray = array => {
+    const j = math
+  }
+  }
+
   $("#p1").click(function(){
   	$("#p2").toggle();
   	$("#p3").toggle();
   	});
 
 });
+
+
+
 
 
 
