@@ -18,9 +18,13 @@ let letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "
       letterArray [i] = letterArray [j];
       letterArray [j] = temp;
         }
-      
+
           $("#alpha").text(letterArray[0])
 //  }
+
+$("#ans").click(function(){
+  $("#").show();
+});
 
   $("#p1").click(function(){
   	$("#p2").toggle();
