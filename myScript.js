@@ -1,17 +1,26 @@
-let letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"];//array of letters for matching exam
 
 
-$(document).ready(function)() {
+
+$(document).ready(function() {
   $("#imagetoggler").click(function(){
   $("img").toggle();
   });
 
-  for(let first = 0; first<O first++){
-  letterArray.push(new letter(random(A,O)))\
-  const shuffleArray = array => {
-    const j = math
-  }
-  }
+  //for(let first = 0; first<O first++){
+  //letterArray.push(new letter(random(A,O)))
+
+let letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O"];//array of letters for matching exam
+//  const shuffleArray = letterArray => {
+
+    for (let i = letterArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i+1));
+      const temp = letterArray [i];
+      letterArray [i] = letterArray [j];
+      letterArray [j] = temp;
+        }
+      
+          $("#alpha").text(letterArray[0])
+//  }
 
   $("#p1").click(function(){
   	$("#p2").toggle();

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+var input = document.getElementsByName('letterArray[]')
 <html>
   <head>
      <link rel="stylesheet" type="text/css" href="style.CSS">
@@ -19,16 +20,18 @@
       <p>
         Match the letter to the correct number.
       </p>
+  <!--    <form action="/matching">
+        <label for="letterArray">letterArray.</label><br>
+      <input type="text" id="m.letterArray" name="m.letterArray"><br>
+      <label for="letterArray">letterArrayB.</label><br>
+    <input type="text" id="m.letterArray" name="m.letterArray"><br>
+      <input type="submit" value="Grade">
+
+    </form>-->
+
       <form action="/matching">
-        <label for="letter">A.</label><br>
-      <input type="text" id="m.letter" name="m.letter"><br>
-    <!--    <datalist id="m.a" name="m.a"><br>
-        <option value="femur">
-        <option value="philangee">
-        <option value="hip-bone">
-        <option value="skull">
-        <option value="vertabrae">
-  </datalist>-->
+        <label id = "alpha" for="letterArray">alpha.</label><br>
+      <input type="text" id="m.letterArray" name="m.letterArray"><br>
         <input type="submit" value="Grade">
       </form>
 
@@ -36,3 +39,10 @@
     </body>
   </head>
 </html>
+<!--    <datalist id="m.a" name="m.a"><br>
+    <option value="femur">
+    <option value="philangee">
+    <option value="hip-bone">
+    <option value="skull">
+    <option value="vertabrae">
+</datalist>-->
