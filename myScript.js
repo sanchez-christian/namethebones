@@ -23,7 +23,7 @@ let letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "
 //  }
 
 $("#ans").click(function(){
-  $
+  $("#").show();
 });
 
   $("#p1").click(function(){
