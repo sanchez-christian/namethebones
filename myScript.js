@@ -2,9 +2,11 @@
 
 
 $(document).ready(function() {
-  $("#imagetoggler").click(function(){
+/*  $("#imagetoggler").click(function(){
   $("img").toggle();
   });
+*/
+  $("#ansp").toggle();
 
   //for(let first = 0; first<O first++){
   //letterArray.push(new letter(random(A,O)))
@@ -23,14 +25,14 @@ let letterArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "
 //  }
 
 $("#ans").click(function(){
-  $("#").show();
+  $("#ansp").toggle();
 });
 
-  $("#p1").click(function(){
+/*  $("#p1").click(function(){
   	$("#p2").toggle();
   	$("#p3").toggle();
   	});
-
+*/
 });
 
 
